@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Registration</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/lib/angular/angular.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js" charset="utf-8"></script>
+    <script src="js/lib/angular/angular-animate.min.js" charset="utf-8"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers/registrationCtrl.js"></script>
+    <script src="js/controllers/successCtrl.js"></script>
+
+  </head>
+  <body>
+  <header></header>
+
+  <a href="/#/"></a>
+
+  <div class="page">
+    <ui-view></ui-view>
+      {{message}}
+
+
+</div>
+</body>
+</html>
